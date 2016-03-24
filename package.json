@@ -1,0 +1,15 @@
+{
+  "name": "is-ali-env",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ant-tool/is-ali-env"
+  },
+  "mail": "chencheng <sorrycc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "form-data": "^1.0.0-rc4"
+  }
+}

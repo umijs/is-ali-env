@@ -1,0 +1,29 @@
+const fetch = require('isomorphic-fetch');
+const FormData = require('form-data');
+
+module.exports = function() {
+  return new Promise(function(resolve) {
+    const form = new FormData();
+    form.append('ip', 'myip');
+
+    fetch('http://ip.taobao.com/service/getIpInfo2.php', {
+      method: 'post',
+      body: form,
+    }).then(function(res) {
+      if (res.status === 200) {
+        return res.json();
+      } else {
+        console.log(res.status);
+        resolve(false);
+      }
+    }).then(function(res) {
+      if (res.data && res.data.isp_id === '100098') {
+        resolve(true);
+      } else {
+        resolve(false);
+      }
+    }).catch(function(err) {
+      resolve(false);
+    });
+  });
+};
