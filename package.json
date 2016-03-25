@@ -1,6 +1,6 @@
 {
   "name": "is-ali-env",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "mail": "chencheng <sorrycc@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
-    "form-data": "^1.0.0-rc4"
+    "form-data": "^1.0.0-rc4",
+    "node-fetch": "^1.4.1"
   }
 }
