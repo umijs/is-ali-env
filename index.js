@@ -19,7 +19,7 @@ module.exports = function(opts) {
         resolve(false);
       }
     }).then(function(res) {
-      if (res.data && res.data.isp_id === '100098') {
+      if (res.data && (res.data.isp_id === '100098' || res.data.isp_id === '100017')) {
         resolve(true);
       } else {
         resolve(false);
