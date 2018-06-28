@@ -9,7 +9,6 @@
   "mail": "chencheng <sorrycc@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "form-data": "^1.0.0-rc4",
-    "node-fetch": "^1.4.1"
+    "superagent": "^3.8.3"
   }
 }
