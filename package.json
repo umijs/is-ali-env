@@ -1,7 +1,7 @@
 {
   "name": "is-ali-env",
   "version": "0.1.4",
-  "description": "",
+  "description": "Determine if you are in ali's internal network.",
   "repository": {
     "type": "git",
     "url": "https://github.com/ant-tool/is-ali-env"
